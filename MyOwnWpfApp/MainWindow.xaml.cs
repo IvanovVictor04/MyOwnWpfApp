@@ -40,8 +40,8 @@ namespace MyOwnWpfApp
 
         ObservableCollection<Uri> uris = new ObservableCollection<Uri>();
 
-        Uri currUri = null;
-        int UriIndex = 0;
+        private Uri currUri = null;
+        private int UriIndex = 0;
 
         private int _currImage = 0;
         //Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Wallpapers-Pack-3")
