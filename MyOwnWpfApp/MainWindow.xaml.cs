@@ -43,6 +43,7 @@ namespace MyOwnWpfApp
         private Uri currUri = null;
         private int UriIndex = 0;
         private int _currImage = 0;
+        private int NewField;
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
